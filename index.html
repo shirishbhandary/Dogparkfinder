@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Park Finder</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbbChWwdoAQfUww0-2nOUBJiV3f0LXlVU&libraries=places" defer></script> <!-- Calling API with key from Google -->
+    <script src="dog.js" defer></script> <!-- Link to JS file -->
+</head>
+<body>
+
+    <h1>
+        <img class="dog-image" src="dog1.jpeg" alt="Dog"> <!-- Using the same folder path as index file -->
+        Dog Park Finder
+        
+    </h1>
+
+    <input type="text" id="postal-code" placeholder="Enter city or suburb name">
+    <button id="search">Search</button>
+    <div id="map"></div>
+    <div id="results"></div>
+
+
+</body>
+</html>
